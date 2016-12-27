@@ -1,0 +1,82 @@
+/** Generic Tweaks **/
+.audioTitle{
+    font-size: 3em;
+}
+#shareMenu a{
+    color: white;
+}
+
+/** Play Icons **/
+.playIcon > .fa{
+    font-size: 5em;
+    color: #42afe3;
+}
+.playIcon:hover{
+    cursor: pointer;
+}
+#defaultPlay{
+    color: white;
+    margin-left: -100%; margin-top: -50%
+}
+
+/** Dark Mode Tweaks **/
+.dark-mode{
+    background-color: black;
+    color: lightgrey;
+}
+.dark-mode .title{
+    color: white;
+}
+.dark-mode .subtitle{
+    color: lightgrey;
+}
+footer.dark-mode{
+    background-color: #69707a;
+    color: #f5f7fa;
+}
+footer.dark-mode a:hover{
+    color: white;
+}
+footer.dark-mode a{
+    color: dodgerblue;
+}
+footer.dark-mode strong{
+    color: white;
+}
+
+/** Margin Tweaks **/
+.margin-responsive-mobile-title{
+    margin-left: 1em
+}
+.margin-between-icon-and-text{
+    margin-bottom: 5em
+}
+.margin-between-icon-and-screen-bottom{
+    margin-bottom: 1.5em
+}
+
+/** Banner for Old Devices **/
+.banner-ie-unsupported{
+    background-color: yellow;
+    padding: 0.5em 1em;
+}
+.banner-ie-unsupported > .close-button {
+    padding-right: 0.5em;
+}
+
+.colorBlock{
+    padding: 8em;
+    aheight:295px;
+    cursor: pointer;
+}
+.colorText-white{
+    font-weight: lighter;
+    color: white;
+}
+.colorText-black{
+    font-weight: lighter;
+    color: black;
+}
+.hidden{
+    display: none;
+}
