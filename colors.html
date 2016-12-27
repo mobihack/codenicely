@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<!--
+	TODO:
+		- Music Visualizer lite B-)
+		- amoled dark mode :)
+		- codereactive link in nav :P
+		- remove jquery and use vanila js as this project is simple :)
+		- better logo :'(
+		- ads :(
+		- premium audio for registered or ad users :D
+		- easter egg of some kind ;)
+	-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!--delete in production system-->
+		<style type="text/css">@font-face{
+			font-family:'FontAwesome';
+			src:url('/new/cms//static/fonts/fontawesome-webfont.eot?v=4.6.3');
+			src:url('/new/cms//static/fonts/fontawesome-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'),
+			url('/new/cms//static/fonts/fontawesome-webfont.woff2?v=4.6.3') format('woff2'),
+			url('/new/cms//static/fonts/fontawesome-webfont.woff?v=4.6.3') format('woff'),
+			url('/new/cms//static/fonts/fontawesome-webfont.ttf?v=4.6.3') format('truetype'),
+			url('/new/cms//static/fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');
+			font-weight:normal;
+			font-style:normal
+			}
+		</style>
+		<link rel="stylesheet" href="/new/cms//static/css/font-awesome.min.css" />
+		<!--delete in production system-->
+
+		<!-- ADD REL IN PRODUCTION SYSTEM -->
+		<link el="stylesheet" ref="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<link rel="stylesheet" type="text/css" href="./data/css/bulma.css">
+		<link rel="stylesheet" type="text/css" href="./data/css/style.css">
+
+
+		<title>CodeNicely - Ambient Background Music for Programmers</title>
+
+		<link href="./data/img/favicon.png" rel="icon" type="image/png" alt="Favourite Icon" />
+
+	</head>
+	<body>
+
+	<!-- Banner for old IE browser users -->
+
+	<!--[if lte IE 9]>
+	<div class="banner-ie-unsupported"><a class="close-button" title="Close this message" onclick="((this).parentNode.remove())">x</a> Browsers IE9 and lower are not supported. We don't guarantee the full working on your browser!</div>
+	<![endif]-->
+	<nav class="nav has-shadow" id="top">
+					<div class="container">
+						<div class="nav-left">
+							<a class="nav-item">
+								<span class="is-mobile margin-responsive-mobile-title"><!-- Just a margin for mobile users. --></span>
+								<span>CodeNicely</span>
+							</a>
+						</div>
+						<span class="nav-toggle">
+							<!-- Toggle for mobile users -->
+							<span></span>
+							<span></span>
+							<span></span>
+						</span>
+
+						<div class="nav-right nav-menu">
+							<a class="nav-item is-hidden-mobile codenicely-bookmark-me">
+								<span class="icon">
+										<i class="fa fa-bookmark"></i>
+									</span>
+								<span>Bookmark</span>
+							</a>
+							<a id="material-palette-button" class="nav-item" onclick="changePalette('material')">
+								<span class="icon">
+										<i id="icon-dark-mode" class="fa fa-toggle-off"></i>
+									</span>
+								<span>Material Palette</span>
+							</a>
+							<a id="flat-palette-button" class="nav-item" onclick="changePalette('flat')">
+								<span class="icon">
+										<i id="icon-dark-mode" class="fa fa-toggle-off"></i>
+									</span>
+								<span>Flat Palette</span>
+							</a>
+							<span class="nav-item">
+								<a class="button is-danger is-inverted" href="http://github.com/mobihack">
+									<!-- add link to codereactive page or github link -->
+									<span class="icon">
+										<i class="fa fa-github"></i>
+									</span>
+									<span>CodeReactive</span>
+								</a>
+							</span>
+						</div>
+					</div>
+				</nav>
+	<br>
+	<div class="container">
+	<div class="box" style="">
+		<!-- Main container -->
+		<nav class="level">
+			<!-- Left side -->
+			<div class="level-left">
+				<div class="level-item">
+					<p class="subtitle is-5 has-text-centered">
+						Color Palette
+					</p>
+				</div>
+			</div>
+			<!-- Right side -->
+			<div class="level-right has-text-centered">
+				<p class="level-item is-inline-block-mobile"><a onclick="changePalette('material')">Material</a></p>
+				<p class="level-item is-inline-block-mobile"><a onclick="changePalette('flat')">Flat</a></p>
+			</div>
+		</nav>
+	</div>
+
+		<div class="section">
+			<div id="colorBlock">
+
+			</div>
+		</div>
+	</div>
+		<!-- Javascript Zone :D -->
+		<script src="data/js/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="data/js/color.js"></script>
+		<script async type="text/javascript" src="./data/js/bulma.js"></script>
+
+		<!-- End of Javascript Zone :'( -->
+
+    <!-- The Hero Footer -->
+    <footer id="footer" class="hero is-primary">
+        <div class="hero-body">
+            <div class="container">
+
+                <div class="columns is-vcentered has-text-centered">
+                    <div class="column is-one-third is-left">
+                        <p class="title">CodeNicely</p>
+                        <p class="subtitle">by <strong>CodeReactive</strong></p>
+                    </div>
+
+                    <div class="column has-text-centered">
+                        <p>
+                            Concept by <strong>Vinay</strong>. Designed by <strong>mobihack</strong>.
+                            <br>
+                            We support Open Source <span class="icon"><i style="color: #f44336;" class="fa fa-heart"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+	</body>
+</html>
