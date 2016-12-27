@@ -1,0 +1,1738 @@
+{"main":[
+    {
+        "name":"RED",
+        "color":"#F44336",
+        "light":1,
+        "paletteid":"color_red"
+    },
+    {
+        "name":"PINK",
+        "color":"#E91E63",
+        "light":1,
+        "paletteid":"color_pink"
+    },
+    {
+        "name":"PURPLE",
+        "color":"#9C27B0",
+        "light":1,
+        "paletteid":"color_purple"
+    },
+    {
+        "name":"DEEP PURPLE",
+        "color":"#673AB7",
+        "light":1,
+        "paletteid":"color_deep_purple"
+    },
+    {
+        "name":"INDIGO",
+        "color":"#3F51B5",
+        "light":1,
+        "paletteid":"color_indigo"
+    },
+    {
+        "name":"BLUE",
+        "color":"#2196F3",
+        "light":1,
+        "paletteid":"color_blue"
+    },
+    {
+        "name":"LIGHT BLUE",
+        "color":"#03A9F4",
+        "light":1,
+        "paletteid":"color_light_blue"
+    },
+    {
+        "name":"CYAN",
+        "color":"#00BCD4",
+        "light":1,
+        "paletteid":"color_cyan"
+    },
+    {
+        "name":"TEAL",
+        "color":"#009688",
+        "light":1,
+        "paletteid":"color_teal"
+    },
+    {
+        "name":"GREEN",
+        "color":"#4CAF50",
+        "light":1,
+        "paletteid":"color_green"
+    },
+    {
+        "name":"LIGHT GREEN",
+        "color":"#8BC34A",
+        "light":1,
+        "paletteid":"color_light_green"
+    },
+    {
+        "name":"LIME",
+        "color":"#CDDC39",
+        "light":0,
+        "paletteid":"color_lime"
+    },
+    {
+        "name":"YELLOW",
+        "color":"#FFEB3B",
+        "light":0,
+        "paletteid":"color_yellow"
+    },
+    {
+        "name":"AMBER",
+        "color":"#FFC107",
+        "light":0,
+        "paletteid":"color_amber"
+    },
+    {
+        "name":"ORANGE",
+        "color":"#FF9800",
+        "light":0,
+        "paletteid":"color_orange"
+    },
+    {
+        "name":"DEEP ORANGE",
+        "color":"#FF5722",
+        "light":1,
+        "paletteid":"color_deep_orange"
+    },
+    {
+        "name":"BROWN",
+        "color":"#795548",
+        "light":1,
+        "paletteid":"color_brown"
+    },
+    {
+        "name":"GREY",
+        "color":"#9E9E9E",
+        "light":1,
+        "paletteid":"color_grey"
+    },
+    {
+        "name":"BLUE GREY",
+        "color":"#607D8B",
+        "light":1,
+        "paletteid":"color_blue_grey"
+    },
+    {
+        "name":"CodeReactive",
+        "color":"black",
+        "light":1}],
+"sub_red":[
+    {
+        "name":"RED 50",
+        "color":"#FFEBEE",
+        "light":0,
+        "paletteid":"color_red"
+    },
+    {
+        "name":"RED 100",
+        "color":"#FFCDD2",
+        "light":0,
+        "paletteid":"color_red"
+    },
+    {
+        "name":"RED 200",
+        "color":"#EF9A9A",
+        "light":1,
+        "paletteid":"color_red"
+    },
+    {
+        "name":"RED 300",
+        "color":"#E57373",
+        "light":1,
+        "paletteid":"color_red"
+    },
+    {
+        "name":"RED 400",
+        "color":"#EF5350",
+        "light":1,
+        "paletteid":"color_red"
+    },
+    {
+        "name":"RED 500",
+        "color":"#F44336",
+        "light":1,
+        "paletteid":"color_red"
+    },
+    {
+        "name":"RED 600",
+        "color":"#E53935",
+        "light":1,
+        "paletteid":"color_red"
+    },
+    {
+        "name":"RED 700",
+        "color":"#D32F2F",
+        "light":1,
+        "paletteid":"color_red"
+    },
+    {
+        "name":"RED 800",
+        "color":"#C62828",
+        "light":1,
+        "paletteid":"color_red"
+    },
+    {
+        "name":"RED 9100",
+        "color":"#B71C1C",
+        "light":1,
+        "paletteid":"color_red"
+    },
+    {
+        "name":"RED A100",
+        "color":"#FF8A80",
+        "light":1,
+        "paletteid":"color_red"
+    },
+    {
+        "name":"RED A200",
+        "color":"#FF5252",
+        "light":1,
+        "paletteid":"color_red"
+    },
+    {
+        "name":"RED A400",
+        "color":"#FF1744",
+        "light":1,
+        "paletteid":"color_red"
+    },
+    {
+        "name":"RED A700",
+        "color":"#D50000",
+        "light":1,
+        "paletteid":"color_red"
+    },
+    {
+        "name":"back",
+        "color":"#D50000",
+        "light":1}],
+"sub_pink":[
+    {
+        "name":"PINK 50",
+        "color":"#FCE4EC",
+        "light":0,
+        "paletteid":"color_pink"
+    },
+    {
+        "name":"PINK 100",
+        "color":"#F8BBD0",
+        "light":0,
+        "paletteid":"color_pink"
+    },
+    {
+        "name":"PINK 200",
+        "color":"#F48FB1",
+        "light":1,
+        "paletteid":"color_pink"
+    },
+    {
+        "name":"PINK 300",
+        "color":"#F06292",
+        "light":1,
+        "paletteid":"color_pink"
+    },
+    {
+        "name":"PINK 400",
+        "color":"#EC407A",
+        "light":1,
+        "paletteid":"color_pink"
+    },
+    {
+        "name":"PINK 500",
+        "color":"#E91E63",
+        "light":1,
+        "paletteid":"color_pink"
+    },
+    {
+        "name":"PINK 600",
+        "color":"#D81B60",
+        "light":1,
+        "paletteid":"color_pink"
+    },
+    {
+        "name":"PINK 700",
+        "color":"#C2185B",
+        "light":1,
+        "paletteid":"color_pink"
+    },
+    {
+        "name":"PINK 800",
+        "color":"#AD1457",
+        "light":1,
+        "paletteid":"color_pink"
+    },
+    {
+        "name":"PINK 900",
+        "color":"#880E4F",
+        "light":1,
+        "paletteid":"color_pink"
+    },
+    {
+        "name":"PINK A100",
+        "color":"#FF80AB",
+        "light":1,
+        "paletteid":"color_pink"
+    },
+    {
+        "name":"PINK A200",
+        "color":"#FF4081",
+        "light":1,
+        "paletteid":"color_pink"
+    },
+    {
+        "name":"PINK A400",
+        "color":"#F50057",
+        "light":1,
+        "paletteid":"color_pink"
+    },
+    {
+        "name":"PINK A700",
+        "color":"#C51162",
+        "light":1,
+        "paletteid":"color_pink"
+    },
+    {
+        "name":"back",
+        "color":"#D50000",
+        "light":1}],
+"sub_purple":[
+    {
+        "name":"PURPLE 50",
+        "color":"#F3E5F5",
+        "light":0,
+        "paletteid":"color_purple"
+    },
+    {
+        "name":"PURPLE 100",
+        "color":"#E1BEE7",
+        "light":0,
+        "paletteid":"color_purple"
+    },
+    {
+        "name":"PURPLE 200",
+        "color":"#CE93D8",
+        "light":1,
+        "paletteid":"color_purple"
+    },
+    {
+        "name":"PURPLE 300",
+        "color":"#BA68C8",
+        "light":1,
+        "paletteid":"color_purple"
+    },
+    {
+        "name":"PURPLE 400",
+        "color":"#AB47BC",
+        "light":1,
+        "paletteid":"color_purple"
+    },
+    {
+        "name":"PURPLE 500",
+        "color":"#9C27B0",
+        "light":1,
+        "paletteid":"color_purple"
+    },
+    {
+        "name":"PURPLE 600",
+        "color":"#8E24AA",
+        "light":1,
+        "paletteid":"color_purple"
+    },
+    {
+        "name":"PURPLE 700",
+        "color":"#7B1FA2",
+        "light":1,
+        "paletteid":"color_purple"
+    },
+    {
+        "name":"PURPLE 800",
+        "color":"#6A1B9A",
+        "light":1,
+        "paletteid":"color_purple"
+    },
+    {
+        "name":"PURPLE 900",
+        "color":"#4A148C",
+        "light":1,
+        "paletteid":"color_purple"
+    },
+    {
+        "name":"PURPLE A100",
+        "color":"#EA80FC",
+        "light":1,
+        "paletteid":"color_purple"
+    },
+    {
+        "name":"PURPLE A200",
+        "color":"#E040FB",
+        "light":1,
+        "paletteid":"color_purple"
+    },
+    {
+        "name":"PURPLE A400",
+        "color":"#D500F9",
+        "light":1,
+        "paletteid":"color_purple"
+    },
+    {
+        "name":"PURPLE A700",
+        "color":"#AA00FF",
+        "light":1,
+        "paletteid":"color_purple"
+    },
+    {
+        "name":"back",
+        "color":"#D50000",
+        "light":1}],
+"sub_deep_purple":[
+    {
+        "name":"DEEP PURPLE 50",
+        "color":"#EDE7F6",
+        "light":0,
+        "paletteid":"color_deep_purple"
+    },
+    {
+        "name":"DEEP PURPLE 100",
+        "color":"#D1C4E9",
+        "light":0,
+        "paletteid":"color_deep_purple"
+    },
+    {
+        "name":"DEEP PURPLE 200",
+        "color":"#B39DDB",
+        "light":1,
+        "paletteid":"color_deep_purple"
+    },
+    {
+        "name":"DEEP PURPLE 300",
+        "color":"#9575CD",
+        "light":1,
+        "paletteid":"color_deep_purple"
+    },
+    {
+        "name":"DEEP PURPLE 400",
+        "color":"#7E57C2",
+        "light":1,
+        "paletteid":"color_deep_purple"
+    },
+    {
+        "name":"DEEP PURPLE 500",
+        "color":"#673AB7",
+        "light":1,
+        "paletteid":"color_deep_purple"
+    },
+    {
+        "name":"DEEP PURPLE 600",
+        "color":"#5E35B1",
+        "light":1,
+        "paletteid":"color_deep_purple"
+    },
+    {
+        "name":"DEEP PURPLE 700",
+        "color":"#512DA8",
+        "light":1,
+        "paletteid":"color_deep_purple"
+    },
+    {
+        "name":"DEEP PURPLE 800",
+        "color":"#4527A0",
+        "light":1,
+        "paletteid":"color_deep_purple"
+    },
+    {
+        "name":"DEEP PURPLE 900",
+        "color":"#311B92",
+        "light":1,
+        "paletteid":"color_deep_purple"
+    },
+    {
+        "name":"DEEP PURPLE A100",
+        "color":"#B388FF",
+        "light":1,
+        "paletteid":"color_deep_purple"
+    },
+    {
+        "name":"DEEP PURPLE A200",
+        "color":"#7C4DFF",
+        "light":1,
+        "paletteid":"color_deep_purple"
+    },
+    {
+        "name":"DEEP PURPLE A400",
+        "color":"#651FFF",
+        "light":1,
+        "paletteid":"color_deep_purple"
+    },
+    {
+        "name":"DEEP PURPLE A700",
+        "color":"#6200EA",
+        "light":1,
+        "paletteid":"color_deep_purple"
+    },
+    {
+        "name":"back",
+        "color":"#D50000",
+        "light":1}],
+"sub_indigo":[
+    {
+        "name":"INDIGO 50",
+        "color":"#E8EAF6",
+        "light":0,
+        "paletteid":"color_indigo"
+    },
+    {
+        "name":"INDIGO 100",
+        "color":"#C5CAE9",
+        "light":0,
+        "paletteid":"color_indigo"
+    },
+    {
+        "name":"INDIGO 200",
+        "color":"#9FA8DA",
+        "light":1,
+        "paletteid":"color_indigo"
+    },
+    {
+        "name":"INDIGO 300",
+        "color":"#7986CB",
+        "light":1,
+        "paletteid":"color_indigo"
+    },
+    {
+        "name":"INDIGO 400",
+        "color":"#5C6BC0",
+        "light":1,
+        "paletteid":"color_indigo"
+    },
+    {
+        "name":"INDIGO 500",
+        "color":"#3F51B5",
+        "light":1,
+        "paletteid":"color_indigo"
+    },
+    {
+        "name":"INDIGO 600",
+        "color":"#3949AB",
+        "light":1,
+        "paletteid":"color_indigo"
+    },
+    {
+        "name":"INDIGO 700",
+        "color":"#303F9F",
+        "light":1,
+        "paletteid":"color_indigo"
+    },
+    {
+        "name":"INDIGO 800",
+        "color":"#283593",
+        "light":1,
+        "paletteid":"color_indigo"
+    },
+    {
+        "name":"INDIGO 900",
+        "color":"#1A237E",
+        "light":1,
+        "paletteid":"color_indigo"
+    },
+    {
+        "name":"INDIGO A100",
+        "color":"#8C9EFF",
+        "light":1,
+        "paletteid":"color_indigo"
+    },
+    {
+        "name":"INDIGO A200",
+        "color":"#536DFE",
+        "light":1,
+        "paletteid":"color_indigo"
+    },
+    {
+        "name":"INDIGO A400",
+        "color":"#3D5AFE",
+        "light":1,
+        "paletteid":"color_indigo"
+    },
+    {
+        "name":"INDIGO A700",
+        "color":"#304FFE",
+        "light":1,
+        "paletteid":"color_indigo"
+    },
+    {
+        "name":"back",
+        "color":"#D50000",
+        "light":1}],
+"sub_blue":[
+    {
+        "name":"BLUE 50",
+        "color":"#E3F2FD",
+        "light":0,
+        "paletteid":"color_blue"
+    },
+    {
+        "name":"BLUE 100",
+        "color":"#BBDEFB",
+        "light":0,
+        "paletteid":"color_blue"
+    },
+    {
+        "name":"BLUE 200",
+        "color":"#90CAF9",
+        "light":1,
+        "paletteid":"color_blue"
+    },
+    {
+        "name":"BLUE 300",
+        "color":"#64B5F6",
+        "light":1,
+        "paletteid":"color_blue"
+    },
+    {
+        "name":"BLUE 400",
+        "color":"#42A5F5",
+        "light":1,
+        "paletteid":"color_blue"
+    },
+    {
+        "name":"BLUE 500",
+        "color":"#2196F3",
+        "light":1,
+        "paletteid":"color_blue"
+    },
+    {
+        "name":"BLUE 600",
+        "color":"#1E88E5",
+        "light":1,
+        "paletteid":"color_blue"
+    },
+    {
+        "name":"BLUE 700",
+        "color":"#1976D2",
+        "light":1,
+        "paletteid":"color_blue"
+    },
+    {
+        "name":"BLUE 800",
+        "color":"#1565C0",
+        "light":1,
+        "paletteid":"color_blue"
+    },
+    {
+        "name":"BLUE 900",
+        "color":"#0D47A1",
+        "light":1,
+        "paletteid":"color_blue"
+    },
+    {
+        "name":"BLUE A100",
+        "color":"#82B1FF",
+        "light":1,
+        "paletteid":"color_blue"
+    },
+    {
+        "name":"BLUE A200",
+        "color":"#448AFF",
+        "light":1,
+        "paletteid":"color_blue"
+    },
+    {
+        "name":"BLUE A400",
+        "color":"#2979FF",
+        "light":1,
+        "paletteid":"color_blue"
+    },
+    {
+        "name":"BLUE A700",
+        "color":"#2962FF",
+        "light":1,
+        "paletteid":"color_blue"
+    },
+    {
+        "name":"back",
+        "color":"#D50000",
+        "light":1}],
+"sub_light_blue":[
+    {
+        "name":"LIGHT BLUE 50",
+        "color":"#E1F5FE",
+        "light":0,
+        "paletteid":"color_light_blue"
+    },
+    {
+        "name":"LIGHT BLUE 100",
+        "color":"#B3E5FC",
+        "light":0,
+        "paletteid":"color_light_blue"
+    },
+    {
+        "name":"LIGHT BLUE 200",
+        "color":"#81D4FA",
+        "light":1,
+        "paletteid":"color_light_blue"
+    },
+    {
+        "name":"LIGHT BLUE 300",
+        "color":"#4FC3F7",
+        "light":1,
+        "paletteid":"color_light_blue"
+    },
+    {
+        "name":"LIGHT BLUE 400",
+        "color":"#29B6F6",
+        "light":1,
+        "paletteid":"color_light_blue"
+    },
+    {
+        "name":"LIGHT BLUE 500",
+        "color":"#03A9F4",
+        "light":1,
+        "paletteid":"color_light_blue"
+    },
+    {
+        "name":"LIGHT BLUE 600",
+        "color":"#039BE5",
+        "light":1,
+        "paletteid":"color_light_blue"
+    },
+    {
+        "name":"LIGHT BLUE 700",
+        "color":"#0288D1",
+        "light":1,
+        "paletteid":"color_light_blue"
+    },
+    {
+        "name":"LIGHT BLUE 800",
+        "color":"#0277BD",
+        "light":1,
+        "paletteid":"color_light_blue"
+    },
+    {
+        "name":"LIGHT BLUE 900",
+        "color":"#01579B",
+        "light":1,
+        "paletteid":"color_light_blue"
+    },
+    {
+        "name":"LIGHT BLUE A100",
+        "color":"#80D8FF",
+        "light":1,
+        "paletteid":"color_light_blue"
+    },
+    {
+        "name":"LIGHT BLUE A200",
+        "color":"#40C4FF",
+        "light":1,
+        "paletteid":"color_light_blue"
+    },
+    {
+        "name":"LIGHT BLUE A400",
+        "color":"#00B0FF",
+        "light":1,
+        "paletteid":"color_light_blue"
+    },
+    {
+        "name":"LIGHT BLUE A700",
+        "color":"#0091EA",
+        "light":1,
+        "paletteid":"color_light_blue"
+    },
+    {
+        "name":"back",
+        "color":"#D50000",
+        "light":1}],
+"sub_cyan":[
+    {
+        "name":"CYAN 50",
+        "color":"#E0F7FA",
+        "light":0,
+        "paletteid":"color_cyan"
+    },
+    {
+        "name":"CYAN 100",
+        "color":"#B2EBF2",
+        "light":0,
+        "paletteid":"color_cyan"
+    },
+    {
+        "name":"CYAN 200",
+        "color":"#80DEEA",
+        "light":1,
+        "paletteid":"color_cyan"
+    },
+    {
+        "name":"CYAN 300",
+        "color":"#4DD0E1",
+        "light":1,
+        "paletteid":"color_cyan"
+    },
+    {
+        "name":"CYAN 400",
+        "color":"#26C6DA",
+        "light":1,
+        "paletteid":"color_cyan"
+    },
+    {
+        "name":"CYAN 500",
+        "color":"#00BCD4",
+        "light":1,
+        "paletteid":"color_cyan"
+    },
+    {
+        "name":"CYAN 600",
+        "color":"#00ACC1",
+        "light":1,
+        "paletteid":"color_cyan"
+    },
+    {
+        "name":"CYAN 700",
+        "color":"#0097A7",
+        "light":1,
+        "paletteid":"color_cyan"
+    },
+    {
+        "name":"CYAN 800",
+        "color":"#00838F",
+        "light":1,
+        "paletteid":"color_cyan"
+    },
+    {
+        "name":"CYAN 900",
+        "color":"#006064",
+        "light":1,
+        "paletteid":"color_cyan"
+    },
+    {
+        "name":"CYAN A100",
+        "color":"#84FFFF",
+        "light":1,
+        "paletteid":"color_cyan"
+    },
+    {
+        "name":"CYAN A200",
+        "color":"#18FFFF",
+        "light":1,
+        "paletteid":"color_cyan"
+    },
+    {
+        "name":"CYAN A400",
+        "color":"#00E5FF",
+        "light":1,
+        "paletteid":"color_cyan"
+    },
+    {
+        "name":"CYAN A700",
+        "color":"#00B8D4",
+        "light":1,
+        "paletteid":"color_cyan"
+    },
+    {
+        "name":"back",
+        "color":"#D50000",
+        "light":1}],
+"sub_teal":[
+    {
+        "name":"TEAL 50",
+        "color":"#E0F2F1",
+        "light":0,
+        "paletteid":"color_teal"
+    },
+    {
+        "name":"TEAL 100",
+        "color":"#B2DFDB",
+        "light":0,
+        "paletteid":"color_teal"
+    },
+    {
+        "name":"TEAL 200",
+        "color":"#80CBC4",
+        "light":1,
+        "paletteid":"color_teal"
+    },
+    {
+        "name":"TEAL 300",
+        "color":"#4DB6AC",
+        "light":1,
+        "paletteid":"color_teal"
+    },
+    {
+        "name":"TEAL 400",
+        "color":"#26A69A",
+        "light":1,
+        "paletteid":"color_teal"
+    },
+    {
+        "name":"TEAL 500",
+        "color":"#009688",
+        "light":1,
+        "paletteid":"color_teal"
+    },
+    {
+        "name":"TEAL 600",
+        "color":"#00897B",
+        "light":1,
+        "paletteid":"color_teal"
+    },
+    {
+        "name":"TEAL 700",
+        "color":"#00796B",
+        "light":1,
+        "paletteid":"color_teal"
+    },
+    {
+        "name":"TEAL 800",
+        "color":"#00695C",
+        "light":1,
+        "paletteid":"color_teal"
+    },
+    {
+        "name":"TEAL 900",
+        "color":"#004D40",
+        "light":1,
+        "paletteid":"color_teal"
+    },
+    {
+        "name":"TEAL A100",
+        "color":"#A7FFEB",
+        "light":1,
+        "paletteid":"color_teal"
+    },
+    {
+        "name":"TEAL A200",
+        "color":"#64FFDA",
+        "light":1,
+        "paletteid":"color_teal"
+    },
+    {
+        "name":"TEAL A400",
+        "color":"#1DE9B6",
+        "light":1,
+        "paletteid":"color_teal"
+    },
+    {
+        "name":"TEAL A700",
+        "color":"#00BFA5",
+        "light":1,
+        "paletteid":"color_teal"
+    },
+    {
+        "name":"back",
+        "color":"#D50000",
+        "light":1}],
+"sub_green":[
+    {
+        "name":"GREEN 50",
+        "color":"#E8F5E9",
+        "light":0,
+        "paletteid":"color_green"
+    },
+    {
+        "name":"GREEN 100",
+        "color":"#C8E6C9",
+        "light":0,
+        "paletteid":"color_green"
+    },
+    {
+        "name":"GREEN 200",
+        "color":"#A5D6A7",
+        "light":1,
+        "paletteid":"color_green"
+    },
+    {
+        "name":"GREEN 300",
+        "color":"#81C784",
+        "light":1,
+        "paletteid":"color_green"
+    },
+    {
+        "name":"GREEN 400",
+        "color":"#66BB6A",
+        "light":1,
+        "paletteid":"color_green"
+    },
+    {
+        "name":"GREEN 500",
+        "color":"#4CAF50",
+        "light":1,
+        "paletteid":"color_green"
+    },
+    {
+        "name":"GREEN 600",
+        "color":"#43A047",
+        "light":1,
+        "paletteid":"color_green"
+    },
+    {
+        "name":"GREEN 700",
+        "color":"#388E3C",
+        "light":1,
+        "paletteid":"color_green"
+    },
+    {
+        "name":"GREEN 800",
+        "color":"#2E7D32",
+        "light":1,
+        "paletteid":"color_green"
+    },
+    {
+        "name":"GREEN 900",
+        "color":"#1B5E20",
+        "light":1,
+        "paletteid":"color_green"
+    },
+    {
+        "name":"GREEN A100",
+        "color":"#B9F6CA",
+        "light":1,
+        "paletteid":"color_green"
+    },
+    {
+        "name":"GREEN A200",
+        "color":"#69F0AE",
+        "light":1,
+        "paletteid":"color_green"
+    },
+    {
+        "name":"GREEN A400",
+        "color":"#00E676",
+        "light":1,
+        "paletteid":"color_green"
+    },
+    {
+        "name":"GREEN A700",
+        "color":"#00C853",
+        "light":1,
+        "paletteid":"color_green"
+    },
+    {
+        "name":"back",
+        "color":"#D50000",
+        "light":1}],
+"sub_light_green":[
+    {
+        "name":"LIGHT GREEN 50",
+        "color":"#F1F8E9",
+        "light":0,
+        "paletteid":"color_light_green"
+    },
+    {
+        "name":"LIGHT GREEN 100",
+        "color":"#DCEDC8",
+        "light":0,
+        "paletteid":"color_light_green"
+    },
+    {
+        "name":"LIGHT GREEN 200",
+        "color":"#C5E1A5",
+        "light":1,
+        "paletteid":"color_light_green"
+    },
+    {
+        "name":"LIGHT GREEN 300",
+        "color":"#AED581",
+        "light":1,
+        "paletteid":"color_light_green"
+    },
+    {
+        "name":"LIGHT GREEN 400",
+        "color":"#9CCC65",
+        "light":1,
+        "paletteid":"color_light_green"
+    },
+    {
+        "name":"LIGHT GREEN 500",
+        "color":"#8BC34A",
+        "light":1,
+        "paletteid":"color_light_green"
+    },
+    {
+        "name":"LIGHT GREEN 600",
+        "color":"#7CB342",
+        "light":1,
+        "paletteid":"color_light_green"
+    },
+    {
+        "name":"LIGHT GREEN 700",
+        "color":"#689F38",
+        "light":1,
+        "paletteid":"color_light_green"
+    },
+    {
+        "name":"LIGHT GREEN 800",
+        "color":"#558B2F",
+        "light":1,
+        "paletteid":"color_light_green"
+    },
+    {
+        "name":"LIGHT GREEN 900",
+        "color":"#33691E",
+        "light":1,
+        "paletteid":"color_light_green"
+    },
+    {
+        "name":"LIGHT GREEN A100",
+        "color":"#CCFF90",
+        "light":1,
+        "paletteid":"color_light_green"
+    },
+    {
+        "name":"LIGHT GREEN A200",
+        "color":"#B2FF59",
+        "light":1,
+        "paletteid":"color_light_green"
+    },
+    {
+        "name":"LIGHT GREEN A400",
+        "color":"#76FF03",
+        "light":1,
+        "paletteid":"color_light_green"
+    },
+    {
+        "name":"LIGHT GREEN A700",
+        "color":"#64DD17",
+        "light":1,
+        "paletteid":"color_light_green"
+    },
+    {
+        "name":"back",
+        "color":"#D50000",
+        "light":1}],
+"sub_lime":[
+    {
+        "name":"LIME 50",
+        "color":"#F9FBE7",
+        "light":0,
+        "paletteid":"color_lime"
+    },
+    {
+        "name":"LIME 100",
+        "color":"#F0F4C3",
+        "light":0,
+        "paletteid":"color_lime"
+    },
+    {
+        "name":"LIME 200",
+        "color":"#E6EE9C",
+        "light":0,
+        "paletteid":"color_lime"
+    },
+    {
+        "name":"LIME 300",
+        "color":"#DCE775",
+        "light":0,
+        "paletteid":"color_lime"
+    },
+    {
+        "name":"LIME 400",
+        "color":"#D4E157",
+        "light":0,
+        "paletteid":"color_lime"
+    },
+    {
+        "name":"LIME 500",
+        "color":"#CDDC39",
+        "light":0,
+        "paletteid":"color_lime"
+    },
+    {
+        "name":"LIME 600",
+        "color":"#C0CA33",
+        "light":0,
+        "paletteid":"color_lime"
+    },
+    {
+        "name":"LIME 700",
+        "color":"#AFB42B",
+        "light":0,
+        "paletteid":"color_lime"
+    },
+    {
+        "name":"LIME 800",
+        "color":"#9E9D24",
+        "light":0,
+        "paletteid":"color_lime"
+    },
+    {
+        "name":"LIME 900",
+        "color":"#827717",
+        "light":0,
+        "paletteid":"color_lime"
+    },
+    {
+        "name":"LIME A100",
+        "color":"#F4FF81",
+        "light":0,
+        "paletteid":"color_lime"
+    },
+    {
+        "name":"LIME A200",
+        "color":"#EEFF41",
+        "light":0,
+        "paletteid":"color_lime"
+    },
+    {
+        "name":"LIME A400",
+        "color":"#C6FF00",
+        "light":0,
+        "paletteid":"color_lime"
+    },
+    {
+        "name":"LIME A700",
+        "color":"#AEEA00",
+        "light":0,
+        "paletteid":"color_lime"
+    },
+    {
+        "name":"back",
+        "color":"#D50000",
+        "light":0}],
+"sub_yellow":[
+    {
+        "name":"YELLOW 50",
+        "color":"#FFFDE7",
+        "light":0,
+        "paletteid":"color_yellow"
+    },
+    {
+        "name":"YELLOW 100",
+        "color":"#FFF9C4",
+        "light":0,
+        "paletteid":"color_yellow"
+    },
+    {
+        "name":"YELLOW 200",
+        "color":"#FFF59D",
+        "light":0,
+        "paletteid":"color_yellow"
+    },
+    {
+        "name":"YELLOW 300",
+        "color":"#FFF176",
+        "light":0,
+        "paletteid":"color_yellow"
+    },
+    {
+        "name":"YELLOW 400",
+        "color":"#FFEE58",
+        "light":0,
+        "paletteid":"color_yellow"
+    },
+    {
+        "name":"YELLOW 500",
+        "color":"#FFEB3B",
+        "light":0,
+        "paletteid":"color_yellow"
+    },
+    {
+        "name":"YELLOW 600",
+        "color":"#FDD835",
+        "light":0,
+        "paletteid":"color_yellow"
+    },
+    {
+        "name":"YELLOW 700",
+        "color":"#FBC02D",
+        "light":0,
+        "paletteid":"color_yellow"
+    },
+    {
+        "name":"YELLOW 800",
+        "color":"#F9A825",
+        "light":0,
+        "paletteid":"color_yellow"
+    },
+    {
+        "name":"YELLOW 900",
+        "color":"#F57F17",
+        "light":0,
+        "paletteid":"color_yellow"
+    },
+    {
+        "name":"YELLOW A100",
+        "color":"#FFFF8D",
+        "light":0,
+        "paletteid":"color_yellow"
+    },
+    {
+        "name":"YELLOW A200",
+        "color":"#FFFF00",
+        "light":1,
+        "paletteid":"color_yellow"
+    },
+    {
+        "name":"YELLOW A400",
+        "color":"#FFEA00",
+        "light":1,
+        "paletteid":"color_yellow"
+    },
+    {
+        "name":"YELLOW A700",
+        "color":"#FFD600",
+        "light":1,
+        "paletteid":"color_yellow"
+    },
+    {
+        "name":"back",
+        "color":"#D50000",
+        "light":1}],
+"sub_amber":[
+    {
+        "name":"AMBER 50",
+        "color":"#FFF8E1",
+        "light":0,
+        "paletteid":"color_amber"
+    },
+    {
+        "name":"AMBER 100",
+        "color":"#FFECB3",
+        "light":0,
+        "paletteid":"color_amber"
+    },
+    {
+        "name":"AMBER 200",
+        "color":"#FFE082",
+        "light":0,
+        "paletteid":"color_amber"
+    },
+    {
+        "name":"AMBER 300",
+        "color":"#FFD54F",
+        "light":0,
+        "paletteid":"color_amber"
+    },
+    {
+        "name":"AMBER 400",
+        "color":"#FFCA28",
+        "light":0,
+        "paletteid":"color_amber"
+    },
+    {
+        "name":"AMBER 500",
+        "color":"#FFC107",
+        "light":0,
+        "paletteid":"color_amber"
+    },
+    {
+        "name":"AMBER 600",
+        "color":"#FFB300",
+        "light":0,
+        "paletteid":"color_amber"
+    },
+    {
+        "name":"AMBER 700",
+        "color":"#FFA000",
+        "light":0,
+        "paletteid":"color_amber"
+    },
+    {
+        "name":"AMBER 800",
+        "color":"#FF8F00",
+        "light":0,
+        "paletteid":"color_amber"
+    },
+    {
+        "name":"AMBER 900",
+        "color":"#FF6F00",
+        "light":0,
+        "paletteid":"color_amber"
+    },
+    {
+        "name":"AMBER A100",
+        "color":"#FFE57F",
+        "light":0,
+        "paletteid":"color_amber"
+    },
+    {
+        "name":"AMBER A200",
+        "color":"#FFD740",
+        "light":0,
+        "paletteid":"color_amber"
+    },
+    {
+        "name":"AMBER A400",
+        "color":"#FFC400",
+        "light":0,
+        "paletteid":"color_amber"
+    },
+    {
+        "name":"AMBER A700",
+        "color":"#FFAB00",
+        "light":0,
+        "paletteid":"color_amber"
+    },
+    {
+        "name":"back",
+        "color":"#D50000",
+        "light":0}],
+"sub_orange":[
+    {
+        "name":"ORANGE 50",
+        "color":"#FFF3E0",
+        "light":0,
+        "paletteid":"color_orange"
+    },
+    {
+        "name":"ORANGE 100",
+        "color":"#FFE0B2",
+        "light":0,
+        "paletteid":"color_orange"
+    },
+    {
+        "name":"ORANGE 200",
+        "color":"#FFCC80",
+        "light":0,
+        "paletteid":"color_orange"
+    },
+    {
+        "name":"ORANGE 300",
+        "color":"#FFB74D",
+        "light":0,
+        "paletteid":"color_orange"
+    },
+    {
+        "name":"ORANGE 400",
+        "color":"#FFA726",
+        "light":0,
+        "paletteid":"color_orange"
+    },
+    {
+        "name":"ORANGE 500",
+        "color":"#FF9800",
+        "light":0,
+        "paletteid":"color_orange"
+    },
+    {
+        "name":"ORANGE 600",
+        "color":"#FB8C00",
+        "light":0,
+        "paletteid":"color_orange"
+    },
+    {
+        "name":"ORANGE 700",
+        "color":"#F57C00",
+        "light":0,
+        "paletteid":"color_orange"
+    },
+    {
+        "name":"ORANGE 800",
+        "color":"#EF6C00",
+        "light":0,
+        "paletteid":"color_orange"
+    },
+    {
+        "name":"ORANGE 900",
+        "color":"#E65100",
+        "light":0,
+        "paletteid":"color_orange"
+    },
+    {
+        "name":"ORANGE A100",
+        "color":"#FFD180",
+        "light":0,
+        "paletteid":"color_orange"
+    },
+    {
+        "name":"ORANGE A200",
+        "color":"#FFAB40",
+        "light":0,
+        "paletteid":"color_orange"
+    },
+    {
+        "name":"ORANGE A400",
+        "color":"#FF9100",
+        "light":0,
+        "paletteid":"color_orange"
+    },
+    {
+        "name":"ORANGE A700",
+        "color":"#FF6D00",
+        "light":0,
+        "paletteid":"color_orange"
+    },
+    {
+        "name":"back",
+        "color":"#D50000",
+        "light":0}],
+"sub_deep_orange":[
+    {
+        "name":"DEEP ORANGE 50",
+        "color":"#FBE9E7",
+        "light":0,
+        "paletteid":"color_deep_orange"
+    },
+    {
+        "name":"DEEP ORANGE 100",
+        "color":"#FFCCBC",
+        "light":0,
+        "paletteid":"color_deep_orange"
+    },
+    {
+        "name":"DEEP ORANGE 200",
+        "color":"#FFAB91",
+        "light":1,
+        "paletteid":"color_deep_orange"
+    },
+    {
+        "name":"DEEP ORANGE 300",
+        "color":"#FF8A65",
+        "light":1,
+        "paletteid":"color_deep_orange"
+    },
+    {
+        "name":"DEEP ORANGE 400",
+        "color":"#FF7043",
+        "light":1,
+        "paletteid":"color_deep_orange"
+    },
+    {
+        "name":"DEEP ORANGE 500",
+        "color":"#FF5722",
+        "light":1,
+        "paletteid":"color_deep_orange"
+    },
+    {
+        "name":"DEEP ORANGE 600",
+        "color":"#F4511E",
+        "light":1,
+        "paletteid":"color_deep_orange"
+    },
+    {
+        "name":"DEEP ORANGE 700",
+        "color":"#E64A19",
+        "light":1,
+        "paletteid":"color_deep_orange"
+    },
+    {
+        "name":"DEEP ORANGE 800",
+        "color":"#D84315",
+        "light":1,
+        "paletteid":"color_deep_orange"
+    },
+    {
+        "name":"DEEP ORANGE 900",
+        "color":"#BF360C",
+        "light":1,
+        "paletteid":"color_deep_orange"
+    },
+    {
+        "name":"DEEP ORANGE A100",
+        "color":"#FF9E80",
+        "light":1,
+        "paletteid":"color_deep_orange"
+    },
+    {
+        "name":"DEEP ORANGE A200",
+        "color":"#FF6E40",
+        "light":1,
+        "paletteid":"color_deep_orange"
+    },
+    {
+        "name":"DEEP ORANGE A400",
+        "color":"#FF3D00",
+        "light":1,
+        "paletteid":"color_deep_orange"
+    },
+    {
+        "name":"DEEP ORANGE A700",
+        "color":"#DD2C00",
+        "light":1,
+        "paletteid":"color_deep_orange"
+    },
+    {
+        "name":"back",
+        "color":"#D50000",
+        "light":1}],
+"sub_brown":[
+    {
+        "name":"BROWN 50",
+        "color":"#EFEBE9",
+        "light":0,
+        "paletteid":"color_brown"
+    },
+    {
+        "name":"BROWN 100",
+        "color":"#D7CCC8",
+        "light":0,
+        "paletteid":"color_brown"
+    },
+    {
+        "name":"BROWN 200",
+        "color":"#BCAAA4",
+        "light":1,
+        "paletteid":"color_brown"
+    },
+    {
+        "name":"BROWN 300",
+        "color":"#A1887F",
+        "light":1,
+        "paletteid":"color_brown"
+    },
+    {
+        "name":"BROWN 400",
+        "color":"#8D6E63",
+        "light":1,
+        "paletteid":"color_brown"
+    },
+    {
+        "name":"BROWN 500",
+        "color":"#795548",
+        "light":1,
+        "paletteid":"color_brown"
+    },
+    {
+        "name":"BROWN 600",
+        "color":"#6D4C41",
+        "light":1,
+        "paletteid":"color_brown"
+    },
+    {
+        "name":"BROWN 700",
+        "color":"#5D4037",
+        "light":1,
+        "paletteid":"color_brown"
+    },
+    {
+        "name":"BROWN 800",
+        "color":"#4E342E",
+        "light":1,
+        "paletteid":"color_brown"
+    },
+    {
+        "name":"BROWN 900",
+        "color":"#3E2723",
+        "light":1,
+        "paletteid":"color_brown"
+    },
+    {
+        "name":"back",
+        "color":"#D50000",
+        "light":1}],
+"sub_grey":[
+    {
+        "name":"GREY 50",
+        "color":"#FAFAFA",
+        "light":0,
+        "paletteid":"color_grey"
+    },
+    {
+        "name":"GREY 100",
+        "color":"#F5F5F5",
+        "light":0,
+        "paletteid":"color_grey"
+    },
+    {
+        "name":"GREY 200",
+        "color":"#EEEEEE",
+        "light":1,
+        "paletteid":"color_grey"
+    },
+    {
+        "name":"GREY 300",
+        "color":"#E0E0E0",
+        "light":1,
+        "paletteid":"color_grey"
+    },
+    {
+        "name":"GREY 400",
+        "color":"#BDBDBD",
+        "light":1,
+        "paletteid":"color_grey"
+    },
+    {
+        "name":"GREY 500",
+        "color":"#9E9E9E",
+        "light":1,
+        "paletteid":"color_grey"
+    },
+    {
+        "name":"GREY 600",
+        "color":"#757575",
+        "light":1,
+        "paletteid":"color_grey"
+    },
+    {
+        "name":"GREY 700",
+        "color":"#616161",
+        "light":1,
+        "paletteid":"color_grey"
+    },
+    {
+        "name":"GREY 800",
+        "color":"#424242",
+        "light":1,
+        "paletteid":"color_grey"
+    },
+    {
+        "name":"GREY 900",
+        "color":"#212121",
+        "light":1,
+        "paletteid":"color_grey"
+    },
+    {
+        "name":"back",
+        "color":"#D50000",
+        "light":1}],
+"sub_blue_grey":[
+    {
+        "name":"BLUE GREY 50",
+        "color":"#ECEFF1",
+        "light":0,
+        "paletteid":"color_blue_grey"
+    },
+    {
+        "name":"BLUE GREY 100",
+        "color":"#CFD8DC",
+        "light":0,
+        "paletteid":"color_blue_grey"
+    },
+    {
+        "name":"BLUE GREY 200",
+        "color":"#B0BEC5",
+        "light":1,
+        "paletteid":"color_blue_grey"
+    },
+    {
+        "name":"BLUE GREY 300",
+        "color":"#90A4AE",
+        "light":1,
+        "paletteid":"color_blue_grey"
+    },
+    {
+        "name":"BLUE GREY 400",
+        "color":"#78909C",
+        "light":1,
+        "paletteid":"color_blue_grey"
+    },
+    {
+        "name":"BLUE GREY 500",
+        "color":"#607D8B",
+        "light":1,
+        "paletteid":"color_blue_grey"
+    },
+    {
+        "name":"BLUE GREY 600",
+        "color":"#546E7A",
+        "light":1,
+        "paletteid":"color_blue_grey"
+    },
+    {
+        "name":"BLUE GREY 700",
+        "color":"#455A64",
+        "light":1,
+        "paletteid":"color_blue_grey"
+    },
+    {
+        "name":"BLUE GREY 800",
+        "color":"#37474F",
+        "light":1,
+        "paletteid":"color_blue_grey"
+    },
+    {
+        "name":"BLUE GREY 900",
+        "color":"#263238",
+        "light":1,
+        "paletteid":"color_blue_grey"
+    },
+    {
+        "name":"back",
+        "color":"#D50000",
+        "light":1}]}
