@@ -1,5 +1,5 @@
 # CodeNicely
-[![CodeReactive](://rockitech.net/codenicely/img/powered-codereactive.png)](http://rockitech.net/)
+[![CodeReactive](http://rockitech.net/codenicely/data/img/powered-codereactive.png)](http://rockitech.net/)
 
 CodeNicely is an online site to play ambient music to help you code easily
 
