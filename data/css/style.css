@@ -10,6 +10,11 @@
     width:100%;
     height:5em;
 }
+.sideway-bg-footer{
+    background: linear-gradient(to right bottom, white 49%, #1fc8db; 50%);
+    width:100%;
+    height:4em;
+}
 
 /** Play Icons **/
 .playIcon > .fa{
