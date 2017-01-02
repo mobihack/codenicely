@@ -5,6 +5,11 @@
 #shareMenu a{
     color: white;
 }
+.sideway-bg{
+    background: linear-gradient(to right bottom, #2f3441 49%, #212531 50%);
+    width:100%;
+    height:5em;
+}
 
 /** Play Icons **/
 .playIcon > .fa{
