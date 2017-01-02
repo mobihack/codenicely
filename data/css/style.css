@@ -12,6 +12,7 @@
 }
 .sideway-bg-footer{
     background: linear-gradient(to right top, #1fc8db 49%, white 50%);
+    
     width:100%;
     height:4em;
 }
