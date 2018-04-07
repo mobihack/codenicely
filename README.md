@@ -2,6 +2,9 @@
 
 CodeNicely is an online tool to play ambient music to help you code with ease.
 
+![Codenicely Website Screenshot](https://cdn.rawgit.com/mobihack/codenicely/bf6d946c/docs/codenicely-screenshot.png)
+
+
 ## Todo
 
 * Update to bulma framework
