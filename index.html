@@ -1,30 +1,34 @@
 <!DOCTYPE html>
 <html>
-	<head>
 
-		<!-- Some general meta tags -->
-		<meta charset="utf-8">
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
 
-		<!-- Bulma - bulma.io -->
-		<link rel="stylesheet" type="text/css" href="./data/css/bulma.css">
+	<!-- Some general meta tags -->
+	<meta charset="utf-8">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<!-- FontAwesome -->
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Bulma - bulma.io -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" integrity="sha256-zIG416V1ynj3Wgju/scU80KAEWOsO5rRLfVyRDuOv7Q="
+	 crossorigin="anonymous" />
 
-		<!-- Custom Styles -->
-		<link rel="stylesheet" type="text/css" href="./data/css/style.css">
+	<!-- FontAwesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0="
+	 crossorigin="anonymous" />
 
-		<link rel="stylesheet" type="text/css" href="./data/css/animate.min.css">
+	<!-- Custom Styles -->
+	<link rel="stylesheet" type="text/css" href="./data/css/style.css">
+
+	<link rel="stylesheet" type="text/css" href="./data/css/animate.min.css">
 
 
-		<title>CodeNicely - Ambient Background Music for Programmers</title>
+	<title>CodeNicely - Ambient Background Music for Programmers</title>
 
-		<link href="./data/img/favicon.png" rel="icon" type="image/png" alt="Favourite Icon" />
+	<link href="./data/img/favicon.png" rel="icon" type="image/png" alt="Favourite Icon" />
 
-	</head>
-	<body>
+</head>
+
+<body>
 
 	<!-- Banner for old IE browser users -->
 
@@ -32,302 +36,317 @@
 	<div class="banner-ie-unsupported"><a class="close-button" title="Close this message" onclick="((this).parentNode.remove())">x</a> Browsers IE9 and lower are not supported. We don't guarantee the full working on your browser!</div>
 	<![endif]-->
 
-		<section id="mainSection" class="hero is-info is-fullheight">
-			<!-- Hero header: will stick at the top -->
-			<div class="hero-head">
-				<header class="nav">
-					<div class="container">
-						<div class="nav-left">
-							<a class="nav-item">
-								<span class="is-mobile margin-responsive-mobile-title"><!-- Just a margin for mobile users. --></span>
-								<img src="data/img/logo.png" alt="CodeNicely"/>
-							</a>
+	<section id="mainSection" class="hero is-info is-fullheight">
+		<div class="hero-head">
+			<nav class="navbar is-transparent">
+				<div class="container">
+					<div class="navbar-brand">
+						<a class="navbar-item" href="./">
+							<img src="data/img/logo.png" alt="CodeNicely" />
+						</a>
+						<div class="navbar-burger burger" data-target="navbar-menu">
+							<span></span>
+							<span></span>
+							<span></span>
 						</div>
-						<span class="nav-toggle">
-							<!-- Toggle for mobile users -->
-							<span></span>
-							<span></span>
-							<span></span>
-						</span>
+					</div>
 
-						<div class="nav-right nav-menu">
-							<a class="nav-item" onclick="toggleModal('about')">
+					<div id="navbar-menu" class="navbar-menu">
+						<div class="navbar-end">
+							<a class="navbar-item" onclick="toggleModal('about')">
 								<span class="icon">
-										<i class="fa fa-flask"></i>
-									</span>
+									<i class="fa fa-flask"></i>
+								</span>
 								<span>About</span>
 							</a>
-							<a class="nav-item is-hidden-mobile codenicely-bookmark-me">
+							<a class="navbar-item is-hidden-mobile codenicely-bookmark-me">
 								<span class="icon">
-										<i class="fa fa-bookmark"></i>
-									</span>
+									<i class="fa fa-bookmark"></i>
+								</span>
 								<span>Bookmark</span>
 							</a>
-							<a id="dark-mode-button" class="nav-item" onclick="toggleDarkMode()">
+							<a id="dark-mode-button" class="navbar-item" onclick="toggleDarkMode()">
 								<span class="icon">
-										<i id="icon-dark-mode" class="fa fa-toggle-off"></i>
-									</span>
-								<span>Dark Mode</span>
+									<i id="icon-dark-mode" class="fa fa-toggle-off"></i>
+								</span>
+								<span>Dark Mode *</span>
 							</a>
-							<a class="nav-item" href="#options">
+							<a class="navbar-item" href="#options">
 								<span class="icon">
-										<i class="fa fa-sliders"></i>
-									</span>
+									<i class="fa fa-sliders"></i>
+								</span>
 								<span>Options</span>
 							</a>
-							<span class="nav-item">
-								<a class="button is-danger is-inverted" href="http://github.com/mobihack">
-									<!-- add link to codereactive page or github link -->
-									<span class="icon">
-										<i class="fa fa-github"></i>
-									</span>
-									<span>mobihack</span>
-								</a>
-							</span>
 						</div>
 					</div>
-				</header>
-			</div>
-
-			<!-- Hero content: will be in the middle -->
-			<div class="hero-body">
-				<div class="container has-text-centered">
-						<div class="has-text-centered icon playIcon">
-							<i id="defaultPlay" onclick="toggleMainAudio()" class="mainIcon fa fa-play" aria-hidden="true"></i>
-						</div>
-					<br class="margin-between-icon-and-text">
-					<h2 id="subtitle1" class="subtitle">
-						simple soothing sounds to help you #codeNicely
-					</h2>
 				</div>
-			</div>
+			</nav>
+		</div>
 
-			<!-- Hero footer: will stick at the bottom -->
-			<div id="shareMenu" class="hero-foot">
-				<div class="has-text-centered margin-between-icon-and-screen-bottom">
-					<a href="http://www.facebook.com/sharer.php?u=http://codenicely.net">
-						<span class="icon">
-							<i class="fa fa-facebook"></i>
-						</span>
-					</a>
-					&nbsp; &nbsp;
-					<a href="http://twitter.com/share?url=http://codenicely.net&amp;text=Ambient Background Music for Programmers">
-						<span class="icon">
-							<i class="fa fa-twitter"></i>
-						</span>
-					</a>
-					&nbsp; &nbsp;
-					<a href="https://plusone.google.com/_/+1/confirm?hl=en&amp;url=http://codenicely.net">
-						<span class="icon">
-							<i class="fa fa-google-plus"></i>
-						</span>
-					</a>
+
+
+		<!-- Hero content: will be in the middle -->
+		<div class="hero-body">
+			<div class="container has-text-centered">
+				<div class="has-text-centered icon playIcon">
+					<i id="defaultPlay" onclick="toggleMainAudio()" class="mainIcon fa fa-play" aria-hidden="true"></i>
 				</div>
-			</div>
-		</section>
-		<div class="sideway-bg"></div>
-		<div class="section" id="options">
-			<div class="has-text-centered">
-				<h2 class="title"><span class="icon">
-							<i class="fa fa-sliders"></i>
-						</span>
-				<span>Options</span>
+				<br class="margin-between-icon-and-text">
+				<h2 id="subtitle1" class="subtitle">
+					simple soothing sounds to help you #codeNicely
 				</h2>
-				<h2 class="subtitle">various tweaks</h2>
 			</div>
-			<hr>
-			<div class="container is-10">
-				<div class="columns">
-					<div class="column is-4 has-text-centered">
-						<div class="playIcon" onclick="toggleSubAudio('piano')">
-							<i class="fa fa-play-circle" id="pianoPlay" aria-hidden="true"></i>
-						</div>
-							<audio id="pianoAudio">
-							<source src="data/audio/piano.mp3" type="audio/mpeg">
-						</audio>
-						<div class="is-black audioTitle">Piano</div>
-						<div id="pianoAudioPlay">Play</div>
-						<input id="pianoAudioVolume" min="0" max="100" value="20" class="hidden" type="range" onmousemove="soundCheck('piano')">
+		</div>
+
+		<!-- Hero footer: will stick at the bottom -->
+		<div id="shareMenu" class="hero-foot">
+			<div class="has-text-centered margin-between-icon-and-screen-bottom">
+				<a href="http://www.facebook.com/sharer.php?u=http://codenicely.net">
+					<span class="icon">
+						<i class="fa fa-facebook"></i>
+					</span>
+				</a>
+				&nbsp; &nbsp;
+				<a href="http://twitter.com/share?url=http://codenicely.net&amp;text=Ambient Background Music for Programmers">
+					<span class="icon">
+						<i class="fa fa-twitter"></i>
+					</span>
+				</a>
+				&nbsp; &nbsp;
+				<a href="https://plusone.google.com/_/+1/confirm?hl=en&amp;url=http://codenicely.net">
+					<span class="icon">
+						<i class="fa fa-google-plus"></i>
+					</span>
+				</a>
+			</div>
+		</div>
+	</section>
+	<div class="sideway-bg"></div>
+	<div class="section" id="options">
+		<div class="has-text-centered">
+			<h2 class="title">
+				<span class="icon">
+					<i class="fa fa-sliders"></i>
+				</span>
+				<span>Options</span>
+			</h2>
+			<h2 class="subtitle">various tweaks</h2>
+		</div>
+		<hr>
+		<div class="container is-10">
+			<div class="columns">
+				<div class="column is-4 has-text-centered">
+					<div class="playIcon" onclick="toggleSubAudio('piano')">
+						<i class="fa fa-play-circle" id="pianoPlay" aria-hidden="true"></i>
 					</div>
-					<div class="column is-4 has-text-centered">
-						<div class="playIcon" onclick="toggleSubAudio('rain')">
-							<i class="fa fa-play-circle" id="rainPlay" aria-hidden="true"></i>
-						</div>
-							<audio id="rainAudio">
-							<source src="data/audio/rain.mp3" type="audio/mpeg">
-						</audio>
-						<div class="is-black audioTitle">Rain</div>
-						<div id="rainAudioPlay">Play</div>
-						<input id="rainAudioVolume" min="0" max="100" value="20" class="hidden" type="range" onmousemove="soundCheck('rain')">
-					</div>
-					<div class="column is-4 has-text-centered">
-						<div class="playIcon" onclick="toggleSubAudio('birds')">
-							<i class="fa fa-play-circle" id="birdsPlay" aria-hidden="true"></i>
-						</div>
-							<audio id="birdsAudio">
-							<source src="data/audio/birds.mp3" type="audio/mpeg">
-						</audio>
-						<div class="is-black audioTitle">Birds</div>
-						<div id="birdsAudioPlay">Play</div>
-						<input id="birdsAudioVolume" min="0" max="100" value="20" class="hidden" type="range" onmousemove="soundCheck('birds')">
-					</div>
+					<audio id="pianoAudio">
+						<source src="data/audio/piano.mp3" type="audio/mpeg">
+					</audio>
+					<div class="is-black audioTitle">Piano</div>
+					<div id="pianoAudioPlay">Play</div>
+					<input id="pianoAudioVolume" min="0" max="100" value="20" class="hidden" type="range" onmousemove="soundCheck('piano')">
 				</div>
-				<div class="columns">
-					<div class="column is-4 has-text-centered">
-						<div class="playIcon" onclick="toggleSubAudio('fire')">
-							<i class="fa fa-play-circle" id="firePlay" aria-hidden="true"></i>
-						</div>
-							<audio id="fireAudio">
-							<source src="data/audio/fire.mp3" type="audio/mpeg">
-						</audio>
-						<div class="is-black audioTitle">Fire</div>
-						<div id="fireAudioPlay">Play</div>
-						<input id="fireAudioVolume" min="0" max="100" value="20" class="hidden" type="range" onmousemove="soundCheck('fire')">
+				<div class="column is-4 has-text-centered">
+					<div class="playIcon" onclick="toggleSubAudio('rain')">
+						<i class="fa fa-play-circle" id="rainPlay" aria-hidden="true"></i>
 					</div>
-					<div class="column is-4 has-text-centered">
-						<div class="playIcon" onclick="toggleSubAudio('bells')">
-							<i class="fa fa-play-circle" id="bellsPlay" aria-hidden="true"></i>
-						</div>
-							<audio id="bellsAudio">
-							<source src="data/audio/bells.mp3" type="audio/mpeg">
-						</audio>
-						<div class="is-black audioTitle">Bells</div>
-						<div id="bellsAudioPlay">Play</div>
-						<input id="bellsAudioVolume" min="0" max="100" value="20" class="hidden" type="range" onmousemove="soundCheck('bells')">
-					</div>
-					<div class="column is-4 has-text-centered">
-						<div class="playIcon" onclick="toggleSubAudio('people')">
-							<i class="fa fa-play-circle" id="peoplePlay" aria-hidden="true"></i>
-						</div>
-							<audio id="peopleAudio">
-							<source src="data/audio/people.mp3" type="audio/mpeg">
-						</audio>
-						<div class="is-black audioTitle">People</div>
-						<div id="peopleAudioPlay">Play</div>
-						<input id="peopleAudioVolume" min="0" max="100" value="20" class="hidden" type="range" onmousemove="soundCheck('people')">
-					</div>
+					<audio id="rainAudio">
+						<source src="data/audio/rain.mp3" type="audio/mpeg">
+					</audio>
+					<div class="is-black audioTitle">Rain</div>
+					<div id="rainAudioPlay">Play</div>
+					<input id="rainAudioVolume" min="0" max="100" value="20" class="hidden" type="range" onmousemove="soundCheck('rain')">
 				</div>
-				<div class="columns">
-					<div class="column is-offset-4 is-4 has-text-centered">
-						<div class="playIcon" onclick="toggleSubAudio('cricket')">
-							<i class="fa fa-play-circle" id="cricketPlay" aria-hidden="true"></i>
-						</div>
-						<audio id="cricketAudio">
-							<source src="data/audio/cricket.mp3" type="audio/mpeg">
-						</audio>
-						<div class="is-black audioTitle">Cricket</div>
-						<div id="cricketAudioPlay">Play</div>
-						<input id="cricketAudioVolume" min="0" max="100" value="20" class="hidden" type="range" onmousemove="soundCheck('cricket')">
+				<div class="column is-4 has-text-centered">
+					<div class="playIcon" onclick="toggleSubAudio('birds')">
+						<i class="fa fa-play-circle" id="birdsPlay" aria-hidden="true"></i>
+					</div>
+					<audio id="birdsAudio">
+						<source src="data/audio/birds.mp3" type="audio/mpeg">
+					</audio>
+					<div class="is-black audioTitle">Birds</div>
+					<div id="birdsAudioPlay">Play</div>
+					<input id="birdsAudioVolume" min="0" max="100" value="20" class="hidden" type="range" onmousemove="soundCheck('birds')">
+				</div>
+			</div>
+			<div class="columns">
+				<div class="column is-4 has-text-centered">
+					<div class="playIcon" onclick="toggleSubAudio('fire')">
+						<i class="fa fa-play-circle" id="firePlay" aria-hidden="true"></i>
+					</div>
+					<audio id="fireAudio">
+						<source src="data/audio/fire.mp3" type="audio/mpeg">
+					</audio>
+					<div class="is-black audioTitle">Fire</div>
+					<div id="fireAudioPlay">Play</div>
+					<input id="fireAudioVolume" min="0" max="100" value="20" class="hidden" type="range" onmousemove="soundCheck('fire')">
+				</div>
+				<div class="column is-4 has-text-centered">
+					<div class="playIcon" onclick="toggleSubAudio('bells')">
+						<i class="fa fa-play-circle" id="bellsPlay" aria-hidden="true"></i>
+					</div>
+					<audio id="bellsAudio">
+						<source src="data/audio/bells.mp3" type="audio/mpeg">
+					</audio>
+					<div class="is-black audioTitle">Bells</div>
+					<div id="bellsAudioPlay">Play</div>
+					<input id="bellsAudioVolume" min="0" max="100" value="20" class="hidden" type="range" onmousemove="soundCheck('bells')">
+				</div>
+				<div class="column is-4 has-text-centered">
+					<div class="playIcon" onclick="toggleSubAudio('people')">
+						<i class="fa fa-play-circle" id="peoplePlay" aria-hidden="true"></i>
+					</div>
+					<audio id="peopleAudio">
+						<source src="data/audio/people.mp3" type="audio/mpeg">
+					</audio>
+					<div class="is-black audioTitle">People</div>
+					<div id="peopleAudioPlay">Play</div>
+					<input id="peopleAudioVolume" min="0" max="100" value="20" class="hidden" type="range" onmousemove="soundCheck('people')">
+				</div>
+			</div>
+			<div class="columns">
+				<div class="column is-offset-4 is-4 has-text-centered">
+					<div class="playIcon" onclick="toggleSubAudio('cricket')">
+						<i class="fa fa-play-circle" id="cricketPlay" aria-hidden="true"></i>
+					</div>
+					<audio id="cricketAudio">
+						<source src="data/audio/cricket.mp3" type="audio/mpeg">
+					</audio>
+					<div class="is-black audioTitle">Cricket</div>
+					<div id="cricketAudioPlay">Play</div>
+					<input id="cricketAudioVolume" min="0" max="100" value="20" class="hidden" type="range" onmousemove="soundCheck('cricket')">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Javascript Zone :D -->
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	 crossorigin="anonymous"></script>
+	<script type="text/javascript" src="data/js/script.js"></script>
+	<script async type="text/javascript" src="./data/js/bulma.js"></script>
+
+	<!-- End of Javascript Zone :'( -->
+	<div class="sideway-bg-footer"></div>
+
+	<!-- The Hero Footer -->
+	<footer id="footer" class="hero is-primary">
+		<div class="hero-body">
+			<div class="container">
+
+				<div class="columns is-vcentered has-text-centered">
+					<div class="column is-one-third is-left">
+						<p class="title">CodeNicely</p>
+						<p class="subtitle">by
+							<strong>CodeVector</strong>
+						</p>
+					</div>
+
+					<div class="column has-text-centered">
+						<p>
+							Created by
+							<strong>Vinay</strong> &amp;
+							<strong>mobihack</strong>.
+							<br> We support Open Source
+							<span class="icon animated wobble infinite">
+								<i style="color: #f44336;" class="fa fa-heart"></i>
+							</span>
 					</div>
 				</div>
 			</div>
 		</div>
-
-		<!-- Javascript Zone :D -->
-		<script
-			  src="https://code.jquery.com/jquery-3.1.1.min.js"
-			  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-			  crossorigin="anonymous"></script>
-		<script type="text/javascript" src="data/js/script.js"></script>
-		<script async type="text/javascript" src="./data/js/bulma.js"></script>
-
-		<!-- End of Javascript Zone :'( -->
-<div class="sideway-bg-footer"></div>
-		
-    <!-- The Hero Footer -->
-    <footer id="footer" class="hero is-primary">
-        <div class="hero-body">
-            <div class="container">
-
-                <div class="columns is-vcentered has-text-centered">
-                    <div class="column is-one-third is-left">
-                        <p class="title">CodeNicely</p>
-                        <p class="subtitle">by <strong>CodeReactive</strong></p>
-                    </div>
-
-                    <div class="column has-text-centered">
-                        <p>
-                            Created by <strong>Vinay</strong> &amp; <strong>mobihack</strong>.
-                            <br>
-                            We support Open Source <span class="icon animated wobble infinite"><i style="color: #f44336;" class="fa fa-heart"></i></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+	</footer>
 
 
-    <!-- START MODALS -->
-    <!--
+	<!-- START MODALS -->
+	<!--
     Modals are defined here
     -->
 
 
-    <div id="modal-about" class="modal">
-        <div class="modal-background"></div>
-        <div class="modal-card">
-            <header class="modal-card-head">
-                <p class="modal-card-title"><span class="icon">
-										<i class="fa fa-flask"></i>
-									</span> About</p>
-                <button class="delete" onclick="toggleModal('about')"></button>
-            </header>
-            <section class="modal-card-body">
-                <div class="content">
-                    <p>CodeNicely website was created by the Team CodeVector.</p>
-                    <p>The purpose of the website is to generate ambient background music to help programmers to work peacefully</p>
-                    <h2>Credits</h2>
-                    <p>CodeNicely tool wouldn't be what it is now without the help and contribution of many people!</p>
-                    <ul>
-                        <li>Vinay <a href="http://github.com/feat7"><span class="ico fa fa-github"></span></a> - First working model and base files.</li>
-                        <li>Amal John <a href="https://github.com/thecodefreak"><span class="ico fa fa-github"></span></a> - For all his support & contribution.</li>
-                        <li>Jeremy Thomas <a href="http://bulma.io"><span class="ico fa fa-external-link"></span></a> - For the awesome Bulma CSS3 Framework.</li>
-                        <li>FontAwesome Team <a href="http://fontawesome.io/"><span class="ico fa fa-fa"></span></a> - For those free, still awesome icons.</li>
-                        <li>mobihack (me) <a href="http://github.com/mobihack"><span class="ico fa fa-github"></span></a> - For all his good qualities and endless contribution :D</li>
-                    </ul>
-                    <h3>License</h3>
-                    <div class="subtitle">The MIT License (MIT)</div>
-                    <p>This site is licensed under the MIT license.<br>
+	<div id="modal-about" class="modal">
+		<div class="modal-background"></div>
+		<div class="modal-card">
+			<header class="modal-card-head">
+				<p class="modal-card-title">
+					<span class="icon">
+						<i class="fa fa-flask"></i>
+					</span> About</p>
+				<button class="delete" onclick="toggleModal('about')"></button>
+			</header>
+			<section class="modal-card-body">
+				<div class="content">
+					<p>CodeNicely website was created by the Team CodeVector.</p>
+					<p>The purpose of the website is to generate ambient background music to help programmers to work peacefully</p>
+					<h2>Credits</h2>
+					<p>CodeNicely tool wouldn't be what it is now without the help and contribution of many people!</p>
+					<ul>
+						<li>Vinay
+							<a href="http://github.com/feat7">
+								<span class="ico fa fa-github"></span>
+							</a> - First working model and base files.</li>
+						<li>Amal John
+							<a href="https://github.com/thecodefreak">
+								<span class="ico fa fa-github"></span>
+							</a> - For all his support & contribution.</li>
+						<li>Jeremy Thomas
+							<a href="http://bulma.io">
+								<span class="ico fa fa-external-link"></span>
+							</a> - For the awesome Bulma CSS3 Framework.</li>
+						<li>FontAwesome Team
+							<a href="http://fontawesome.io/">
+								<span class="ico fa fa-fa"></span>
+							</a> - For those free, still awesome icons.</li>
+						<li>mobihack (me)
+							<a href="http://github.com/mobihack">
+								<span class="ico fa fa-github"></span>
+							</a> - For all his good qualities and endless contribution :D</li>
+					</ul>
+					<h3>License</h3>
+					<div class="subtitle">The MIT License (MIT)</div>
+					<p>This site is licensed under the MIT license.
+						<br>
 					</p>
-					<p class="has-text-centered"><a href="./LICENSE.txt"><span class="ico fa fa-external-link"></span> license.txt</a>
-						<a href="http://opensource.org/licenses/MIT"><span class="ico fa fa-external-link"></span> OpenSource.Org</a></p>
-                    <blockquote>The MIT License (MIT)<br><br>
+					<p class="has-text-centered">
+						<a href="./LICENSE.txt">
+							<span class="ico fa fa-external-link"></span> license.txt</a>
+						<a href="http://opensource.org/licenses/MIT">
+							<span class="ico fa fa-external-link"></span> OpenSource.Org</a>
+					</p>
+					<blockquote>The MIT License (MIT)
+						<br>
+						<br> Copyright (c) 2016
+						<br>
+						<br> Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation
+						files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use,
+						copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to
+						whom the Software is furnished to do so, subject to the following conditions:
+						<br>
+						<br> The above copyright notice and this permission notice shall be included in all copies or substantial portions of the
+						Software.
+						<br>
+						<br> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+						WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS
+						OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+						OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</blockquote>
 
-                        Copyright (c) 2016<br><br>
-
-                        Permission is hereby granted, free of charge, to any person obtaining a copy
-                        of this software and associated documentation files (the "Software"), to deal
-                        in the Software without restriction, including without limitation the rights
-                        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-                        copies of the Software, and to permit persons to whom the Software is
-                        furnished to do so, subject to the following conditions:<br><br>
-
-                        The above copyright notice and this permission notice shall be included in
-                        all copies or substantial portions of the Software.<br><br>
-
-                        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-                        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-                        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-                        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-                        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-                        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-                        THE SOFTWARE.</blockquote>
-
-                    <h4>Usage &amp; Copyright</h4>
-                    <p>We don't hold any copyrights to some files used in this website. We would be happy to remove or attribute any content that you may deem by showing proper ownership of the file/content in question.</p>
-                    <br>
-                </div>
-            </section>
-            <footer class="modal-card-foot">
-                <a class="button is-pulled-right is-danger" onclick="toggleModal('about')">Close</a>
-            </footer>
-        </div>
-    </div>
-
-
-
-    <!-- END MODALS -->
+					<h4>Usage &amp; Copyright</h4>
+					<p>We don't hold any copyrights to some files used in this website. We would be happy to remove or attribute any content
+						that you may deem by showing proper ownership of the file/content in question.</p>
+					<br>
+				</div>
+			</section>
+			<footer class="modal-card-foot">
+				<a class="button is-pulled-right is-danger" onclick="toggleModal('about')">Close</a>
+			</footer>
+		</div>
+	</div>
 
 
-	</body>
+
+	<!-- END MODALS -->
+
+
+</body>
+
 </html>

@@ -6,12 +6,12 @@
     color: white;
 }
 .sideway-bg{
-    background: linear-gradient(to left bottom, #42afe3 49%, white 50%);
+    background: linear-gradient(to left bottom, #209cee 49%, white 50%);
     width:100%;
     height:5em;
 }
 .sideway-bg-footer{
-    background: linear-gradient(to right top, #1fc8db 49%, white 50%);
+    background: linear-gradient(to right top, #00d1b2 49%, white 50%);
     
     width:100%;
     height:4em;
