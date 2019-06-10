@@ -5,6 +5,11 @@
 ![MIT License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Last Commit](https://img.shields.io/github/last-commit/mobihack/codenicely.svg)
 
+![Codenicely](./docs/splash.png)
+
+## Preview
+[Live Preview](https://mobihack.github.io/) - Demo website 
+
 ![Codenicely Website Screenshot](./docs/codenicely-screenshot-v2.png)
 
 
