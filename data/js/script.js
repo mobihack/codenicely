@@ -1,7 +1,6 @@
 /*
  * file             : codenicely.js
  * description      : js part of codenicely project. codenicely intents to play ambient background music for programmers to get better concentration while doing their works
- * dependencies     : jquery3
  * author           : mobihack (mobihack@github), vinay (feat7@github)
  * license          : check license.txt
  * */
@@ -114,7 +113,7 @@ function toggleDarkMode() {
     if (!document.body.classList.contains('is-darkmode')) {
         document.body.classList.add('is-darkmode');
         mainSection.classList.add('is-dark')
-        mainSection.classList.classList.remove('is-primary');
+        mainSection.classList.remove('is-primary');
         button.classList.add('is-active');
         icon.classList.add('fa-toggle-on')
         icon.classList.remove('fa-toggle-off');
