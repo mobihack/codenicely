@@ -7,7 +7,7 @@
 > CodeNicely is an online tool to play ambient music to help you code with ease.
 
 ## Preview
-[Live Preview](https://mobihack.github.io/) - Demo website 
+[Live Preview](https://mobihack.github.io/codenicely/) - Demo website 
 
 ![Codenicely Website Screenshot](./docs/codenicely-screenshot-v2.png)
 
