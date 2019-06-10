@@ -2,7 +2,8 @@
 
 CodeNicely is an online tool to play ambient music to help you code with ease.
 
-[MIT License](https://img.shields.io/badge/license-MIT-green.svg)
+![MIT License](https://img.shields.io/badge/license-MIT-green.svg)
+![Last Commit](https://img.shields.io/github/last-commit/mobihack/codenicely.svg)
 
 ![Codenicely Website Screenshot](./docs/codenicely-screenshot-v2.png)
 
