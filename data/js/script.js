@@ -113,7 +113,7 @@ function toggleDarkMode() {
     if (!document.body.classList.contains('is-darkmode')) {
         document.body.classList.add('is-darkmode');
         
-        mainSection.classList.add('is-dark')
+        mainSection.classList.add('is-black')
         mainSection.classList.remove('is-primary');
 
         button.classList.add('is-active');
@@ -124,7 +124,7 @@ function toggleDarkMode() {
     else {
         document.body.classList.remove('is-darkmode');
 
-        mainSection.classList.remove('is-dark')
+        mainSection.classList.remove('is-black')
         mainSection.classList.add('is-primary');
 
         button.classList.remove('is-active');

@@ -18,12 +18,12 @@ body {
     color: white;
   }
   .sideway-bg {
-    background: linear-gradient(to left bottom, $primary 49%, white 50%);
+    background: linear-gradient(to left bottom, $primary 49%, $light 50%);
     width: 100%;
-    height: 5em;
+    height: 4em;
   }
   .sideway-bg-footer {
-    background: linear-gradient(to right top, $primary 49%, white 50%);
+    background: linear-gradient(to right top, $primary 49%, $light 50%);
   
     width: 100%;
     height: 4em;
@@ -37,7 +37,9 @@ body {
       cursor: pointer;
     }
   }
-  
+  .options-section {
+    background-color: $light;
+  }
   #defaultPlay {
     color: white;
     margin-left: -100%;
@@ -47,8 +49,8 @@ body {
   /** Dark Mode Tweaks **/
   .is-darkmode {
     .sideway-bg {
-      background: $dark;
-    }
+      background: linear-gradient(to right top, $dark 49%, $black 50%);
+      }
     .sideway-bg-footer {
       background: linear-gradient(to right top, $primary 49%, $dark 50%);
     }
