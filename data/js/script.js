@@ -112,8 +112,10 @@ function toggleDarkMode() {
     //mainSection.animateCss('tada');
     if (!document.body.classList.contains('is-darkmode')) {
         document.body.classList.add('is-darkmode');
+        
         mainSection.classList.add('is-dark')
         mainSection.classList.remove('is-primary');
+
         button.classList.add('is-active');
         icon.classList.add('fa-toggle-on')
         icon.classList.remove('fa-toggle-off');
@@ -121,8 +123,10 @@ function toggleDarkMode() {
     }
     else {
         document.body.classList.remove('is-darkmode');
+
         mainSection.classList.remove('is-dark')
         mainSection.classList.add('is-primary');
+
         button.classList.remove('is-active');
         icon.classList.remove('fa-toggle-on')
         icon.classList.add('fa-toggle-off');
@@ -145,3 +149,30 @@ function toggleModal(name) {
         modal.classList.add('is-active');
     }
 }
+
+/* bulma navbar toggle */
+document.addEventListener('DOMContentLoaded', () => {
+
+    // Get all "navbar-burger" elements
+    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+  
+    // Check if there are any navbar burgers
+    if ($navbarBurgers.length > 0) {
+  
+      // Add a click event on each of them
+      $navbarBurgers.forEach( el => {
+        el.addEventListener('click', () => {
+  
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+  
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+  
+        });
+      });
+    }
+  
+  });
