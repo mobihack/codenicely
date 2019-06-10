@@ -8,7 +8,7 @@
 
 
 //list of audio tracks
-var audioList=['piano','rain','birds','fire','bells','people','cricket'];
+var audioList = ['piano', 'rain', 'birds', 'fire', 'bells', 'people', 'cricket'];
 
 function soundCheck(id) {
 
@@ -17,8 +17,7 @@ function soundCheck(id) {
     * function  : Change volume of specific audio tracks.
     * input     : id - id of audio track whose sound is being changed
     * */
-
-    $('#'+id+'Audio')[0].volume = $('#'+id+'AudioVolume')[0].value/100;
+    document.getElementById(id + 'Audio').volume = document.getElementById(id + 'AudioVolume').value / 100;
 }
 
 function toggleMainAudio() {
@@ -30,38 +29,40 @@ function toggleMainAudio() {
      * */
 
 
-        var mainIcon=$('#defaultPlay');
+    var mainIcon = document.getElementById('defaultPlay');
 
-        mainIcon.animateCss('fadeIn');
+    //mainIcon.animateCss('fadeIn');
 
-        var flag; //to make sure that all audio are paused/played correctly
+    var flag; //to make sure that all audio are paused/played correctly
+    
+    if (mainIcon.classList.contains('fa-pause')) {
 
-        if(mainIcon.hasClass('fa-pause')){
+        mainIcon.classList.add('fa-play')
+        mainIcon.classList.remove('fa-pause');
+        flag = 'paused';
 
-            mainIcon.addClass('fa-play').removeClass('fa-pause');
-            flag='paused';
+    }
+    else {
 
-        }
-        else{
+        flag = 'play';
+        mainIcon.classList.remove('fa-play')
+        mainIcon.classList.add('fa-pause');
 
-            flag='play';
-            mainIcon.removeClass('fa-play').addClass('fa-pause');
-
-        }
+    }
 
 
-        audioList.forEach(function (id) {
+    audioList.forEach(function (id) {
 
-            if (flag=='play')
-                if($('#' + id + 'Audio')[0].paused) {
-                    toggleSubAudio(id);
-                }
-            if (flag=='paused')
-                if(!$('#' + id + 'Audio')[0].paused) {
-                    toggleSubAudio(id);
-                }
+        if (flag == 'play')
+            if (document.getElementById(id+'Audio').paused) {
+                toggleSubAudio(id);
+            }
+        if (flag == 'paused')
+            if (!document.getElementById(id+'Audio').paused) {
+                toggleSubAudio(id);
+            }
 
-        });
+    });
 }
 
 function toggleSubAudio(id) {
@@ -73,24 +74,26 @@ function toggleSubAudio(id) {
      * */
 
 
-    var audio = document.getElementById(id+'Audio');
+    var audio = document.getElementById(id + 'Audio');
 
     /* Animations */
-    $('#'+id+'Play').animateCss('fadeIn');
-    $('#'+id+'AudioPlay').animateCss('fadeIn');
+    //$(d+'Play').animateCss('fadeIn');
+    //$(AudioPlay').animateCss('fadeIn');
 
-    if(audio.paused) {
-        $('#'+id+'AudioPlay').html('Playing Now');
-        $('#'+id+'Play').addClass('fa-pause').removeClass('fa-play-circle');
-        $('#'+id+'AudioVolume').removeClass('hidden');
-        $('#'+id+'AudioVolume').animateCss('slideInDown');
+    if (audio.paused) {
+        document.getElementById(id+'AudioPlay').innerHTML='Playing Now';
+        document.getElementById(id+'Play').classList.add('fa-pause')
+        document.getElementById(id+'Play').classList.remove('fa-play-circle');
+        document.getElementById(id+'AudioVolume').classList.remove('hidden');
+        //$(id+'AudioVolume').animateCss('slideInDown');
         audio.play();
         audio.loop = true;
     } else {
-        $('#'+id+'AudioPlay').html('Paused');
-        $('#'+id+'Play').addClass('fa-play-circle').removeClass('fa-pause');
-        $('#'+id+'AudioVolume').addClass('hidden');
-        $('#'+id+'AudioVolume').animateCss('fadeOut');
+        document.getElementById(id+'AudioPlay').innerHTML='Paused';
+        document.getElementById(id+'Play').classList.add('fa-play-circle')
+        document.getElementById(id+'Play').classList.remove('fa-pause');
+        document.getElementById(id+'AudioVolume').classList.add('hidden');
+        //$(id+'AudioVolume').animateCss('fadeOut');
         audio.pause();
     }
 }
@@ -103,28 +106,27 @@ function toggleDarkMode() {
      * input     : none
      * */
 
-    var mainSection=$('#mainSection');
-    var button=$('#dark-mode-button');
-    var icon=$('#icon-dark-mode');
-    var optionSection=$('#options');
-    var footerSection=$('#footer');
+    var mainSection = document.getElementById('mainSection'),
+        button = document.getElementById('dark-mode-button'),
+        icon = document.getElementById('icon-dark-mode');
 
-    mainSection.animateCss('tada');
-
-    if(mainSection.hasClass('is-info')){
-        mainSection.addClass('is-dark').removeClass('is-info');
-        optionSection.addClass('dark-mode');
-        footerSection.addClass('dark-mode').removeClass('is-primary');
-        button.addClass('is-active');
-        icon.addClass('fa-toggle-on').removeClass('fa-toggle-off');
+    //mainSection.animateCss('tada');
+    if (!document.body.classList.contains('is-darkmode')) {
+        document.body.classList.add('is-darkmode');
+        mainSection.classList.add('is-dark')
+        mainSection.classList.classList.remove('is-primary');
+        button.classList.add('is-active');
+        icon.classList.add('fa-toggle-on')
+        icon.classList.remove('fa-toggle-off');
 
     }
-    else{
-        mainSection.removeClass('is-dark').addClass('is-info');
-        footerSection.removeClass('dark-mode').addClass('is-primary');
-        optionSection.removeClass('dark-mode');
-        button.removeClass('is-active');
-        icon.removeClass('fa-toggle-on').addClass('fa-toggle-off');
+    else {
+        document.body.classList.remove('is-darkmode');
+        mainSection.classList.remove('is-dark')
+        mainSection.classList.add('is-primary');
+        button.classList.remove('is-active');
+        icon.classList.remove('fa-toggle-on')
+        icon.classList.add('fa-toggle-off');
     }
 }
 
@@ -136,84 +138,11 @@ function toggleModal(name) {
      * input     : name - name of modal box
      * */
 
-    var modal=$('#modal-'+name);
-    if(modal.hasClass('is-active')) {
-        modal.removeClass('is-active');
+    var modal = document.getElementById('modal-' + name);
+    if (modal.classList.contains('is-active')) {
+        modal.classList.remove('is-active');
     }
-    else{
-        modal.addClass('is-active');
+    else {
+        modal.classList.add('is-active');
     }
 }
-
-$('.codenicely-bookmark-me').click(function(e) {
-
-    /*
-     * function  : Bookmark
-     * input     : name - name of modal box
-     * credits   : http://stackoverflow.com/questions/37026847/add-bookmark-this-page-button-2016
-     * */
-
-    e.preventDefault();
-    var bookmarkURL = window.location.href;
-    var bookmarkTitle = document.title;
-
-    if ('addToHomescreen' in window && window.addToHomescreen.isCompatible) {
-        // Mobile browsers
-        addToHomescreen({ autostart: false, startDelay: 0 }).show(true);
-    } else if (window.sidebar && window.sidebar.addPanel) {
-        // Firefox version < 23
-        window.sidebar.addPanel(bookmarkTitle, bookmarkURL, '');
-    } else if ((window.sidebar && /Firefox/i.test(navigator.userAgent)) || (window.opera && window.print)) {
-        // Firefox version >= 23 and Opera Hotlist
-        $(this).attr({
-            href: bookmarkURL,
-            title: bookmarkTitle,
-            rel: 'sidebar'
-        }).off(e);
-        return true;
-    } else if (window.external && ('AddFavorite' in window.external)) {
-        // IE Favorite
-        window.external.AddFavorite(bookmarkURL, bookmarkTitle);
-    } else {
-        // Other browsers (mainly WebKit - Chrome/Safari)
-        alert('Pease press ' + (/Mac/i.test(navigator.userAgent) ? 'CMD' : 'Strg') + ' + D to add this page to your favorites.');
-    }
-
-    return false;
-});
-
-$(function() {
-    
-    /*
-     * function     : smooth scroll when clicking id href links
-     * credits      : https://css-tricks.com/snippets/jquery/smooth-scrolling/
-     * */
-    
-  $('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
-
-$.fn.extend(
-
-    /*
-     * function     : animateCSS - Extended Function -
-     * input        : name - name of modal box
-     * credits      : https://daneden.github.io/animate.css/
-     * */
-
-    { animateCss: function (animationName) {
-        var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
-        this.addClass('animated ' + animationName).one(animationEnd,
-            function() { $(this).removeClass('animated ' + animationName); });
-    }
-    });
